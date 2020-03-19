@@ -46,7 +46,7 @@
 			var test_option = test.find(".topic-item").length - 1;
 			test_option = parseInt(Math.random()*test_option);
 			test.find(".topic-item")[test_option].click();
-			test.find(".dialog-footer").find(".btn").[0].click();
+			test.find(".dialog-footer").find(".btn")[0].click();
 		}
 
 	}
